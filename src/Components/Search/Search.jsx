@@ -6,7 +6,7 @@ export default function Search({ changeHandler, value }) {
     <div className="search">
       <input
         placeholder="Search for the robot"
-        onChange={(e) => changeHandler(e.target.value)}
+        onChange={(e) => changeHandler(e)}
         value={value}
       />
     </div>
